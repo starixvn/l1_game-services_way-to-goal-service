@@ -5,3 +5,7 @@ include:
   - project: "ci/repos-ci/pentagon_l1_way_to_goal_service"
     ref: master
     file: "gitlab-ci.yml"
+
+  - project: "ci/repos-ci/pentagon_l2_way_to_goal_service"
+    ref: master
+    file: "gitlab-ci-mixing.yml"
