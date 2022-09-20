@@ -37,7 +37,15 @@ export default {
         env: "PROD",
     },
     authenticateSettings: {
+        url: "http://l2_auth_api_prod:5000",
+        id: "game-services",
+        secret: "gameservices@20luminet&",
+        requestTimeout: 10000,
+        useAuthenticate: true,
         audiences: ["api", "admin-api"],
+    },
+    userServiceSettings: {
+        url: "http://l2_user_service_prod:5000",
     },
     adminSecretKey: "asWDEer4yGdgsdqR4uqmKQZgh",
     enableCorsWs: true,
