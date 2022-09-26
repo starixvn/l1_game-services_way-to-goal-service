@@ -26,7 +26,7 @@
         "indent": 4
     },
     "dependencies": {
-        "sc-slot-game-base": "1.5.1-beta.0"
+        "sc-slot-game-base": "1.5.1"
     },
     "devDependencies":  { 
         "@types/jest": "^26.0.24",
@@ -40,7 +40,7 @@
         "jest-extended": "^0.11.5",
         "jest-sonar-reporter": "^2.0.0", 
         "nodemon": "^2.0.4"
-     },
+     }, 
     "husky": {
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
