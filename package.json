@@ -26,7 +26,7 @@
         "indent": 4
     },
     "dependencies": {
-        "sc-slot-game-base": "1.7.0"
+        "sc-slot-game-base": "2.0.0"
     },
     "resolutions": {
         "sc-base-apis": "1.18.3-beta.0"
